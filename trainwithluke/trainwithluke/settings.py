@@ -29,6 +29,8 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ['8000-trollope91-milestonefou-9gvg7ac382c.ws-eu105.gitpod.io']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-trollope91-milestonefou-9gvg7ac382c.ws-eu105.gitpod.io']
+
 
 # Application definition
 
