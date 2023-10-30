@@ -29,6 +29,10 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ['8000-trollope91-milestonefou-9gvg7ac382c.ws-eu105.gitpod.io']
 
+SESSION_COOKIE_AGE = 86400
+
+CART_SESSION_ID = 'cart'
+
 CSRF_TRUSTED_ORIGINS = ['https://8000-trollope91-milestonefou-9gvg7ac382c.ws-eu105.gitpod.io']
 
 
